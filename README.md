@@ -12,3 +12,11 @@ je maitrise aujourd'hui :
 - La gestion de machine à distnce via SSH
 - Un peu de pyhton
 - Un peu de JavaScript
+
+
+je veux découvire :
+- Le SASS
+- Le SCSS
+- Les frameworks
+- Le JavaScript +
+- Le Pyhton +
