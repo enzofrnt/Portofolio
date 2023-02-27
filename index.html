@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+    
+    <head>
+        <script src="./js/jquery-3.6.3.min.js"></script>
+
+        <title>Portfolio Enzo Fournet</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=0.5">
+        <meta name="Description" content="Je m'appel Enzo Fournet voici mon portfolio, je vous invite à le découvrir pour comprendre qui je suis et ce que je fais !">
+        <meta name="keywords" content="Dévellopeur, Toulouse, enzo frnt, enzo fournet, enzofrnt, cv, portfolio">
+        <meta name="author" content="Enzo Fournet">
+
+        <meta property="og:title" content="Portfolio Enzo Fournet" />
+        <meta property="og:description" content="Je m'appel Enzo Fournet voici mon portfolio, je vous invite à le découvrir pour comprendre qui je suis et ce que je fais !" />
+        <meta property="og:url" content="https://enzo-frnt.fr" />
+        <meta property="og:image" content="https://enzo-frnt.fr/Image/PP.jpeg" />
+        <meta property="og:locale" content="eu_FR" />
+
+
+        <meta name="twitter:title" content="Portfolio Enzo Fournet">
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:description" content="Je m'appel Enzo Fournet voici mon portfolio, je vous invite à le découvrir pour comprendre qui je suis et ce que je fais !">
+        <meta name="twitter:image" content="https://enzo-frnt.fr/Image/PP.jpeg" >
+        <meta name="twitter:url" content="https://enzo-frnt.fr" >
+        <meta name="twitter:site" content="Portfolio Enzo Fournet">
+        <meta name="twitter:creator" content="@enzo_frnt">
+       
+        <link rel="apple-touch-icon" href="https://enzo-frnt.fr/Image/PP.jpeg">
+        <link rel="apple-touch-startup-image" href="https://enzo-frnt.fr/Image/PP.jpeg">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+        <meta name="apple-mobile-web-app-title" content="Portfolio Enzo Fournet">
+
+        <link rel="shortcut icon" href="Image/PP-petite-modified.webp" >
+        <link rel="stylesheet" href="index.css">
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-G802TCQLSK"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+          
+            gtag('config', 'G-G802TCQLSK');
+        </script>
+    </head>
+
+    <body>
+
+        
+
+        <!--Nav bar-->
+        <div id="nav-placeholder"></div>
+        <script src="./js/load-nav.js"></script>
+        <div class="wait-nav"></div>
+        <!--Nav bar-->
+
+        <div class="posTotal">
+            <a href="/moi.html" class="button">
+                <div class="center">
+                    <img src="/Image/developpement.png" alt="test" height="200" width="200">
+                    <p>Mes ambitions</p>
+                </div>
+            </a>
+
+            <a href="/projet.html" class="button">
+                <div class="center">
+                    <img src="/Image/roue-dentee.png" alt="test" height="200" width="200">
+                    <p>Mes projets</p>
+                </div>
+            </a>
+
+            <a href="cv.html" class="button">
+                <div class="center">
+                    <img src="/Image/cv.png" alt="test" height="200" width="200">
+                    <p>Mon CV</p>
+                </div>
+            </a>
+        </div>
+        
+        <hr> 
+        
+        <div class="post-block">
+            <img src="./Image/PP-moyenne.webp" alt="Enzo Fournet PP" height="200" width="150">
+            <div>
+                <h1>A propos de moi</h1>
+                 <h2>Qui suis-je :</h2>
+                <p>
+                    Je m'appelle Enzo Fournet et j'ai <span id="age"></span> ans. Je suis né le 13 septembre 2004 à Toulouse.
+                    Aujourd'hui en Bachelor Universitaires Technologique (BUT) Informatique à l'IUT de Blagnac. <br>
+                    
+                    <Strong>Je recherche activement une alternance</Strong> pour ma deuxième année et troisième année de BUT. <br>
+                    Je suis extremement motivé, j'ai très envie d'apprendre de nouvelles choses au coté de professionnel qualifé. <br>
+                    Afind de me rendre utile lors de projet professionnel et concret ! <br>
+                </p>
+                <script>var birthdate = new Date("2004-09-13");var ageDifMs = Date.now() - birthdate.getTime();var ageDate = new Date(ageDifMs);var age =  Math.abs(ageDate.getUTCFullYear() - 1970);document.getElementById("age").innerHTML = age;</script>
+                <h2>Mes passions :</h2>
+                <p>
+                    Je suis passionné par l'informatique et le VTT depuis plus de 8 ans ! <br>
+                    Je fais donc régulièrement du VTT en club, parfois seul et aujourd'hui pusique j'ai 18 ans j'encadre même réguliérement les plus petits. <br>
+                    Je suis aussi trés intéresé par l'actualité spatiale et j'adore me documenter sur les dernières découvertes, les derniers lancements et les dernières technologies. <br>
+                </p>
+            </div>
+            
+        </div>
+        
+        <!--footer bar-->
+        <div id="footer-placeholder"></div>
+        <script src="./js/footer.js"></script>
+        <!--footer bar-->
+        
+    </body>
+</html>
